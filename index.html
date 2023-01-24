@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" id= "display" name="display">
+                </div>
+                <div>
+                    <button type="button" class="highlight" id="reset">AC</button>
+                    <button type="button" class="highlight focusdel" id="delete"><i class="uil uil-backspace"></i></button>
+                    <button type="button" class="highlight mod" value="%"><i class="uil uil-percentage"></i></button>
+                    <button type="button" class="highlight divide" value="/">/</button>
+                </div>
+                <div>
+                    <button type="button" class="focus" id ="7" value="7">7</button>
+                    <button type="button" class="focus" value="8">8</button>
+                    <button type="button" class="focus" value="9">9</button>
+                    <button type="button" class="multiply highlight" value="*"><i class="uil uil-times"></i></button>
+                </div>
+                <div>
+                    <button type="button" class="focus" value="4">4</button>
+                    <button type="button" class="focus" value="5">5</button>
+                    <button type="button" class="focus" value="6">6</button>
+                    <button type="button" class="subtraction highlight" value="-"><i class="uil uil-minus"></i></button>
+                </div>
+                <div>
+                    <button type="button" class="focus" value="1">1</button>
+                    <button type="button" class="focus" value="2">2</button>
+                    <button type="button" class="focus" value="3">3</button>
+                    <button type="button" class="addition highlight" value="+"><i class="uil uil-plus" ></i></button>
+                </div>
+                <div>
+                    <button type="button" class="focus" value="00">00</button>
+                    <button type="button" class="focus" value="0">0</button>
+                    <button type="button" class="focus" value=".">.</button>
+                    <button type="button" class="highlight equal" id="equal"><i class="uil uil-equal-circle"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
